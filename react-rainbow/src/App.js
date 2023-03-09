@@ -20,7 +20,7 @@ function App() {
     })
 
     const addColor = (newColor) => {
-      setColors([colors, newColor])
+      setColors([...colors, newColor])
     }
     return (
         <div className="App">
